@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: touchgrass-ai-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OLLAMA_URL
+        value: http://localhost:11434
+      - key: OLLAMA_MODEL
+        value: qwen2.5:3b
+      - key: CORS_ORIGINS
+        sync: false
