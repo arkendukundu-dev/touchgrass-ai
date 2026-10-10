@@ -1,5 +1,7 @@
 # touchgrass 🌱
 
+https://touchgrass-ai.vercel.app/
+
 **A little less scrolling. A little more living.**
 
 Touchgrass is an open-source, offline-first micro-adventure companion. It uses open-weight AI (Ollama + Qwen 2.5 by default) to suggest tiny real-world missions that get people away from the screen and back into the world. It also has a built-in quest engine, so the app remains useful when a model or internet connection is unavailable.
